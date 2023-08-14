@@ -12,6 +12,7 @@ while (nums < 58)
 {
 putchar(nums);
 putchar(',');
+putcher(' ');
 nums += 1;
 }
 putchar('\n');

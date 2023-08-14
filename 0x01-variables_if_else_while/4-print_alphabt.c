@@ -10,11 +10,16 @@
 int main(void)
 {
 char chLow;
-chLow = 'q';
-while (chLow >= 'e')
+chLow = 'a';
+while (chLow <= 'z')
+{
+if (chLow == 'e' || chLow == 'q')
+chLow = chLow + 1;
+else
 {
 putchar(chLow);
-chLow = chLow - 1;
+chLow = chLow + 1;
+}
 }
 putchar('\n');
 return (0);

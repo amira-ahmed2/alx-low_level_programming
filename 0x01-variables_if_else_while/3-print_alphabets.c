@@ -17,6 +17,7 @@ while (cLow <= 'z')
 {
 putchar(cLow);
 cLow = cLow + 1;
+}
 while (cUpper <= 'Z')
 {
 putchar(cUpper);

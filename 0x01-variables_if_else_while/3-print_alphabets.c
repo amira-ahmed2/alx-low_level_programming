@@ -4,7 +4,7 @@
 
 /**
 * main - prints the alphabet in lowercase, and then in uppercase
-* description : alphabet to the variable cUpper,cLow
+* description : alphabet to the variable ch,cUpper
 * Return: Always 0 (Success)
 */
 int main(void)

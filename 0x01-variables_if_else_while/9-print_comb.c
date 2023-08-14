@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 * main - that prints all possible combinations of single-digit numbers.
 * description : the single-digit numbers to the variable nums
@@ -7,13 +6,15 @@
 */
 int main(void)
 {
-unsigned int nums = 48;
-while (nums < 58)
+int nums;
+for (nums = 48; nums < 58; nums++)
 {
 putchar(nums);
+if (nums != 57)
+{
 putchar(',');
 putchar(' ');
-nums += 1;
+}
 }
 putchar('\n');
 return (0);

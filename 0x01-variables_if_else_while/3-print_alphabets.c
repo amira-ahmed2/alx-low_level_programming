@@ -3,20 +3,20 @@
 #include <time.h>
 
 /**
-* main - prints the alphabet in lowercase, and then in uppercase, followed by a new line
+* main - prints the alphabet in lowercase, and then in uppercase
 * description : alphabet to the variable cUpper,cLow
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-char cLow;
+char ch;
 char cUpper;
-cLow = 'a';
+ch = 'a';
 cUpper = 'A';
-while (cLow <= 'z')
+while (ch <= 'z')
 {
-putchar(cLow);
-cLow = cLow + 1;
+putchar(ch);
+ch = ch + 1;
 }
 while (cUpper <= 'Z')
 {

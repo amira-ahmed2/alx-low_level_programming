@@ -17,12 +17,11 @@ while (cLow <= 'z')
 {
 putchar(cLow);
 cLow = cLow + 1;
-}
-putchar('\n');
 while (cUpper <= 'Z')
 {
 putchar(cUpper);
 cUpper = cUpper + 1;
 }
+putchar('\n');
 return (0);
 }

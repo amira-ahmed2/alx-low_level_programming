@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - assigns a random number to int n everytime
- * it executes, and prints it
+ * fun main - assigns a random number to int n everytime
+ * the main is executes and prints it
  * Return: Always 0 (success)
  */
 int main(void)

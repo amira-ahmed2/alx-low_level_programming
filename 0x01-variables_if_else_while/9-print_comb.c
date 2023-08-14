@@ -1,7 +1,5 @@
-i#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
 /**
 * main - that prints all possible combinations of single-digit numbers.
 * description : the single-digit numbers to the variable nums

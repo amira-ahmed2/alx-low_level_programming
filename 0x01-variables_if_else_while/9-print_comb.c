@@ -7,12 +7,12 @@
 */
 int main(void)
 {
-unsigned int nums = 48;
+unsigned char nums = 48;
 while (nums < 58)
 {
 putchar(nums);
 putchar(',');
-putcher(' ');
+putchar(' ');
 nums += 1;
 }
 putchar('\n');

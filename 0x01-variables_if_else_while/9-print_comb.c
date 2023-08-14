@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-unsigned char nums = 48;
+unsigned int nums = 48;
 while (nums < 58)
 {
 putchar(nums);

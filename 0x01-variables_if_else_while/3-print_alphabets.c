@@ -24,6 +24,5 @@ while (cUpper <= 'Z')
 putchar(cUpper);
 cUpper = cUpper + 1;
 }
-putchar('\n');
 return (0);
 }

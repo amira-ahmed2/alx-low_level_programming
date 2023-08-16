@@ -20,7 +20,6 @@ putchar(' ');
 }
 }
 putchar('\n');
-return (0);
 }
 else
 {
@@ -34,6 +33,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return (0);
 }
 }

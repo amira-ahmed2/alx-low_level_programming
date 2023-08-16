@@ -5,7 +5,7 @@
  * @nums: parm integer
  * Return: Always 0.
  */
-int print_to_98(int nums)
+void print_to_98(int nums)
 {
 
 if (nums < 99)

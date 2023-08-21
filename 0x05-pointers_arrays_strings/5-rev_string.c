@@ -12,10 +12,10 @@ char temp;
 
 while (s[c] != '\0')
 c++;
-for (int i = 0; i < c / 2; i++)
+for (i = 0; i < c / 2; i++)
 {
 temp = s[i];
-s[i] = s[c - 1 - i];
-s[c - 1 - i] = temp;
+s[i] = s[c - i - 1];
+s[c - i - 1] = temp;
 }
 }

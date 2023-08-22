@@ -10,6 +10,7 @@ int i;
 
 while (str[i])
 i++;
+i++;
 for (i /= 2; str[i] != '\0'; i++)
 {
 putchar(str[i]);

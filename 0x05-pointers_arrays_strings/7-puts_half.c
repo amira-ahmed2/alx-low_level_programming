@@ -3,7 +3,7 @@
 /**
  * puts_half - prints half of a string, followed by a new line.
  * @str: number to compare
- */
+**/
 void puts_half(char *str)
 {
 int i;

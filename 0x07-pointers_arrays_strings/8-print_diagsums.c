@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagsums - that prints the chessboard.
+ * print_diagsums - prints the sum of the two diagonals of a squaree
  * @a: the pointer letters string
  * @size: size array
 */

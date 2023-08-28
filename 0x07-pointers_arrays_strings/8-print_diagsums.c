@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_diagsums - prints the sum of the two diagonals of a squaree
- * @a: the pointer letters string
+ * print_diagsums - prints the sum1,sum2
+ * @a: the pointer two dim array
  * @size: size array
 */
 void print_diagsums(int *a, int size)
 {
-unsigned int i, sum1 = 0, sum2 = 0;
+int i, sum1 = 0, sum2 = 0;
 
 for (i = 0; i < size; i++)
 {

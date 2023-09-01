@@ -2,12 +2,13 @@
 
 /**
  * main - prints its name, followed by a new line.
- * @argc:lenght argv
- * @argv:array 
- * Return:0
+ * @argc: lenght argv
+ * @argv: array
+ * Return: 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-printf("%s\n",argv[0]);
+(void)argc;
+printf("%s\n", argv[0]);
 return (0);
 }

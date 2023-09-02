@@ -7,7 +7,7 @@
  * @argv: array
  * Return: 1 in error
  */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 int resultSum;
 

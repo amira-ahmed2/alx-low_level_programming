@@ -3,7 +3,7 @@
 
 /**
  * main - that adds positive numbers.
- * @argc: lenght argv
+ * @argc: lenght  argv
  * @argv: array
  * Return: resultsum in error
  */

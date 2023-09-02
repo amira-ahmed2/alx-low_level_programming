@@ -17,7 +17,10 @@ while (--argc)
 for (ch = argv[argc]; *ch; ch++)
 {
 if (*ch < '0' || *ch > '9')
-return (printf("Error\n", 1));
+{
+printf("Error\n");
+return (1);
+}
 resultSum += atoi(argv[argc]);
 }
 }

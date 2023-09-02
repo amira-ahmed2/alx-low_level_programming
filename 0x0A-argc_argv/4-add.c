@@ -15,9 +15,11 @@ char *ch;
 while (--argc)
 {
 for (ch = argv[argc]; *ch; ch++)
+{
 if (*ch < '0' || *ch > '9')
 return (printf("Error\n", 1));
 resultSum += atoi(argv[argc]);
+}
 }
 printf("%d\n", resultSum);
 return (0);

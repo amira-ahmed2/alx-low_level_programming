@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * _strdup -that returns a pointer to a newly allocated space in memory
+ * _strdup - that returns a pointer to a newly allocated space in memory
  * @str : size array
- * Return : char is par or 0
- */
+ * Return: char is par or 0
+*/
 char *_strdup(char *str)
 {
 int i = 0;
@@ -18,7 +18,9 @@ for (; str[s] != '\0'; s++)
 ;
 par = malloc(s * sizeof(*str) + 1);
 if (par == 0)
+{
 return (NULL);
+}
 else
 {
 for (; i < s; i++)

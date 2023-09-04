@@ -24,20 +24,20 @@ char *str_concat(char *s1, char *s2)
 {
 int size_one;
 int size_two;
-char *par;
+char *per;
 int i;
-if (s1 == Null)
+
+if (s1 == NULL)
 s1 = "\0";
-if (s2 == Null)
+if (s2 == NULL)
 s2 = "\0";
 size_one = getStrlen(s1);
 size_two = getStrlen(s2);
-per = malloc((size_one + size_two) *sizeof(char + 1));
-
+per = malloc((size_one + size_two) *sizeof(char) + 1);
 if (per == 0)
 return (0);
 
-for (i = 0; i <= c + size_two; i++)
+for (i = 0; i <= size_one + size_two; i++)
 {
 if (i < size_one)
 per[i] = s1[i];
@@ -46,16 +46,4 @@ per[i] = s2[i - size_one];
 }
 per[i] = '\0';
 return (per);
-
-for (; str[s] != '\0'; s++)
-;
-par = malloc(s * sizeof(*str) + 1);
-if (par == 0)
-return (Null);
-else
-{
-for (; i < s; i++)
-par[i] = str[i];
-}
-return (par);
 }

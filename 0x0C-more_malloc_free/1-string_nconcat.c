@@ -28,7 +28,13 @@ if (ch == NULL)
 {
 return (NULL);
 }
-strcpy(ch, s1);
-strncat(ch, s2, n);
+for (i = 0; s1[i] != '\0'; i++)
+ch[i] = s1[i];
+for (j = 0; j < n; j++)
+{
+ch[i] = s1[j];
+i++;
+}
+ch[i] = '\0';
 return (ch);
 }

@@ -14,6 +14,7 @@ char *fill_mem(char *s, char v, unsigned int len)
 char *pt = s;
 while (len--)
 *s++ = v;
+
 return (pt);
 }
 /**
@@ -26,7 +27,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *ma;
 
-if (nmemb == 0 || size == 0)
+if (size == 0 || nmemb == 0)
 return (NULL);
 
 ma = malloc(sizeof(int) * nmemb);

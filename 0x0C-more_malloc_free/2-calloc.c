@@ -32,6 +32,8 @@ return (NULL);
 ma = malloc(sizeof(int) * nmemb);
 if (ma == 0)
 return (NULL);
+
 fill_mem(ma, 0, sizeof(int) * nmemb);
+
 return (ma);
 }

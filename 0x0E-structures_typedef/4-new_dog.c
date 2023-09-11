@@ -7,7 +7,7 @@
  * @s : the string
  * Return: number length of string
  */
-int str_len(const char s)
+int str_len(const char *s)
 {
 int len = 0;
 
@@ -19,21 +19,22 @@ return (len);
 /**
  * str_copy - function that get string length
  * @s : the string
- * @d : copy of the string
+ * @des : copy of the string
  * Return: copy of the string
  */
-int str_copy(char *s, char *d)
+char *str_copy(char *des, char *s)
 {
 int i;
 
 for (i = 0; s[i]; i++)
-d[i] = s[i];
-d[i] = '\0';
-return (d);
+des[i] = s[i];
+
+des[i] = '\0';
+return (des);
 }
 
 /**
- * new_dog - function that prints a struct dog
+* new_dog - function that prints a struct dog
  * @name : dog name
  * @age : dog age
  * @owner : dog owner

@@ -9,7 +9,8 @@
  *
  * Description : Define a new type struct dog with the following elements
  */
-struct dog {
+struct dog
+{
 char *name;
 float age;
 char *owner;

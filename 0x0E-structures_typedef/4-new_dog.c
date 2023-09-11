@@ -11,7 +11,7 @@ int str_len(const char *s)
 {
 int len = 0;
 
-while (*s)
+while (*s++)
 len++;
 return (len);
 }

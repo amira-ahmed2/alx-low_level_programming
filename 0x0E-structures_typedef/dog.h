@@ -6,6 +6,8 @@
  * @name : name of dog
  * @age : age of dog
  * @owner : owner of dog
+ *
+ * Description : Define a new type struct dog with the following elements
  */
 struct dog {
 char *name;

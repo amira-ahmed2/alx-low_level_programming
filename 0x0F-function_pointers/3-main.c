@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 {
 int (*opr_fun)(int, int), a, b;
 
-if (arc != 4)
+if (argc != 4)
 printf("Error\n"), exit(98);
 
 a = atoi(argv[1]);

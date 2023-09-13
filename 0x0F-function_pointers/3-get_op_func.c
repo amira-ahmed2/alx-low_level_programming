@@ -16,11 +16,12 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i;
-
-for (i = 0; i < 5; i++)
+i = 0;
+while (i < 5)
 {
-if (s && !s[1] && s[0] == ops[i].op[0])
+if(s && !s[1] && s[0] == ops[i].op[0])
 return (ops[i].f);
+i++;
 }
 return (NULL);
 }

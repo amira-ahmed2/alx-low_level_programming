@@ -19,7 +19,7 @@ int i;
 i = 0;
 while (i < 5)
 {
-if(s && !s[1] && s[0] == ops[i].op[0])
+if(s && s[0] == ops[i].op[0] && !s[1])
 return (ops[i].f);
 i++;
 }

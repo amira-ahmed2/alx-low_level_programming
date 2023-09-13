@@ -15,7 +15,7 @@ int (*opr_fun)(int, int), a, b;
 if (arc != 4)
 printf("Error\n"), exit(98);
 
-a = atoi(argv[1];
+a = atoi(argv[1]);
 b = atoi(argv[3]);
 
 opr_fun = get_op_func(argv[2]);

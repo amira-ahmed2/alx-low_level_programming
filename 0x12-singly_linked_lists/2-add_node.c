@@ -12,7 +12,15 @@ list_t *newnode = malloc(sizeof(list_t));
 if (!head || !newnode)
 return (NULL);
 
+if (str != NULL)
+{
 newnode->str = strdup(str);
+if (newnode->str == NULL)
+{
+free(newnode);
+return (NULL);
+}
+}
 newnode->next = *head;
 *head = newnode;
 return (newnode);

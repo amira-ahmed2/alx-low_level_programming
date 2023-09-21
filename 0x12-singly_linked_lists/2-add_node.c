@@ -12,10 +12,10 @@ list_t *newnode = malloc(sizeof(list_t));
 if (!head || !newnode)
 return (NULL);
 
-if (str != NULL)
+if (str)
 {
 newnode->str = strdup(str);
-if (newnode->str == NULL)
+if (!newnode->str)
 {
 free(newnode);
 return (NULL);

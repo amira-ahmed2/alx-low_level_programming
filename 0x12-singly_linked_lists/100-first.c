@@ -1,3 +1,5 @@
+#include "lists.h"
+
 /**
  * before_main -  a function that prints executed before main
  */

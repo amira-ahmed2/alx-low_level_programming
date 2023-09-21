@@ -1,7 +1,6 @@
 /**
- * before_main -  function that prints executed before main
- * Return: no return.
+ * before_main -  a function that prints executed before main
  */
 void __attribute__((constructor)) before_main(){
-   printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
+printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
 }

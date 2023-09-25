@@ -15,7 +15,7 @@ if (!head)
 
 currentnode = *head;
 
-while (head)
+while (currentnode)
 {
 x = currentnode;
 currentnode = currentnode->next;

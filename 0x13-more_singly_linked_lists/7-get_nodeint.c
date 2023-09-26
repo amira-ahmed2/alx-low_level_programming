@@ -17,5 +17,5 @@ while (node && i < index)
 node = node->next;
 i++;
 }
-return (node);
+return (node ? node : NULL);
 }

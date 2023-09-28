@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
- * pop_listint - hat deletes the head node of a listint_t
+ * pop_listint - that deletes the head node of a listint_t
  * @head: the pointer node
  *
+ * Return: the integer i or 0
  */
 int pop_listint(listint_t **head)
 {

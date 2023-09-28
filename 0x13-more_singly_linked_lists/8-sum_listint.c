@@ -2,9 +2,9 @@
 
 /**
  * sum_listint -  the function sum of all the data (n) of a listint_t
- * @head : the pointer node
+ * @head: the pointer node
  *
- * Return : integer sum
+ * Return: integer sum
  */
 int sum_listint(listint_t *head)
 {

@@ -5,7 +5,7 @@
  * @head: the pointer node
  * @index : index
  *
- * Return : pointer the node or NULL
+ * Return: pointer the node or NULL
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {

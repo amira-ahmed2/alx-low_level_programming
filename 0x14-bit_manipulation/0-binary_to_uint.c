@@ -22,4 +22,4 @@ number = number * 2 + (*b++ - '0');
 }
 
 return (number);
-i}
+}

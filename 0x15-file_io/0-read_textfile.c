@@ -17,9 +17,8 @@ ssize_t bs;
 
 	f = open(filename, O_RDONLY);
 	if (f == -1)
-	{
-		return (0);
-	}
+	return (0);
+	
 	bs = read(f, &buff[0], letters);
 	bs = write(STDOUT_FILENO, &buff[0], bs);
 	close(f);

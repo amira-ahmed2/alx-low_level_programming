@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {
 	int fr, fw, r, a, b;
-	char buf[R_BUFF_S];
+char buf[R_BUFF_S * 8];
 
 	if (argc != 3)
 	{

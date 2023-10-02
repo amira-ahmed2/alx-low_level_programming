@@ -9,6 +9,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
+
 #define R_BUFF_S 1024;
 
 ssize_t read_textfile(const char *filename, size_t letters);

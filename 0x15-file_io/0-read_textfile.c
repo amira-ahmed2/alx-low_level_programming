@@ -16,7 +16,7 @@ char buff[R_BUFF_S * 8];
 	if (!filename || !letters)
 	return (0);
 
-	f = open(filename, O_RDONL Y);
+	f = open(filename, O_RDONLY);
 	if (f == -1)
 	{
 		return (0);

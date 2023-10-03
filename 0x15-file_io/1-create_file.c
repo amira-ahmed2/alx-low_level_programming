@@ -9,8 +9,8 @@
 int create_file(const char *filename, char *text_content)
 {
 int f;
-int b = 0;
-int lenth = strlen(text_content);
+ssize_t b = 0;
+ssize_t lenth = strlen(text_content);
 
 if (!filename)
 return (-1);

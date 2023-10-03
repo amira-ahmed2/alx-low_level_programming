@@ -8,20 +8,18 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int f;
-	ssize_t bs;
-char buff[R_BUFF_S * 8];
+int f;
+int bs;
+	char buff[R_BUFF_S * 8];
 
-	buff = malloc(letters);
 	if (!filename || !letters)
 	return (0);
 
 	f = open(filename, O_RDONLY);
 	if (f == -1)
-	{
-		return (0);
-	}
-	bs = read(f, &buff[0], bs);
+	return (0);
+	
+	bs = read(f, &buff[0], letters);
 	bs = write(STDOUT_FILENO, &buff[0], bs);
 	close(f);
 	return (bs);

@@ -1,1 +1,1 @@
-0x00. C - Hello, World
+0x17-doubly_linked_lists

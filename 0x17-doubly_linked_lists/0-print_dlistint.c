@@ -2,8 +2,8 @@
 
 /**
  * print_dlistint - hat prints all the elements of a dlistint_t list
- *
  * @h: head first data.
+ * Return: length double list
  */
 size_t print_dlistint(const dlistint_t *h)
 {

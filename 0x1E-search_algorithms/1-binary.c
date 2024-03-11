@@ -6,18 +6,37 @@
  * @value: is the value to search for
  * Return: the first index where value is located or -1
  */
-int linear_search(int *array, size_t size, int value)
+int binary_search(int *array, size_t size, int value)
 {
-    size_t i, middle;
-    size_t right = size - 1, left = 0;
+    size_t middle, i;
+	size_t right = size - 1, left = 0;
 
-    if (array == NULL)
+	if (array == NULL)
+	{
 		return (-1);
+	}
 
-        while (left <= right)
-        {
-            printf("Searching in array: ");
-            
+	while (left <= right)
+	{
+		printf("Searching in array: ");
+		for (i = left; i < left + (right - left + 1); i++)
+		{
+			printf("%d%s", *(array + i), i < left + (right - left) ? ", " : "\n");
+		}
 
-        }
+		middle = floor((left + right) / 2);
+		if (array[middle] < value)
+		{
+			left = middle + 1;
+		}
+		else if (array[middle] > value)
+		{
+			right = middle - 1;
+		}
+		else
+		{
+			return (middle);
+		}
+	}
+	return (-1);
 }
